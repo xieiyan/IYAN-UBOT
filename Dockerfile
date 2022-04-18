@@ -1,1 +1,1 @@
-FROM ramadhani892/ramubot:master
+FROM xieiyan/iyanbot:master
