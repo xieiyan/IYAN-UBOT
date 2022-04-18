@@ -8,7 +8,7 @@ from userbot.utils import ram_cmd
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def _(typew):
     await typew.client.send_message(
-        typew.chat_id, "𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...", reply_to=typew.reply_to_msg_id)
+        typew.chat_id, "𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦...semua", reply_to=typew.reply_to_msg_id)
     await typew.delete()
 
 @ram_cmd(pattern="atg(?: |$)(.*)")
