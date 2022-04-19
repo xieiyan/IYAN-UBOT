@@ -14,7 +14,7 @@ async def _(typew):
 @ram_cmd(pattern="atg(?: |$)(.*)")
 async def _(typew):
     await typew.client.send_message(
-        typew.chat_id, "𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.... 𝐆𝐎𝐁𝐋𝐎𝐊𝐊𝐊𝐊𝐊!!!!", reply_to=typew.reply_to_msg_id)
+        typew.chat_id, "𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.... Anjing!!!!", reply_to=typew.reply_to_msg_id)
     await typew.delete()
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
